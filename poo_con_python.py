@@ -50,14 +50,19 @@ class personaje:
         print(self.nombre, " ha ralizado", daño, "puntos de daño a", enemigo.nombre)
         print("vida de ", enemigo.nombre, "es", enemigo.vida)
 
+class guerrero(personaje):
+    pass 
+
+tlatoani = guerrero("apocalipto", 50, 70, 30, 100) 
+
 
 #variable del constructor vacio de la clse
-mi_personaje = personaje("dante", 100, 3, 100, 100)
-mi_personaje.imprimir_atributos()
-mi_personaje.subir_nivel(10,1)
-mi_enemigo = personaje("vergil", 70, 30, 100, 70)
-mi_personaje.atacar(mi_enemigo)
-mi_enemigo.imprimir_atributos()
+# mi_personaje = personaje("dante", 100, 3, 100, 100)
+# mi_personaje.imprimir_atributos()
+# mi_personaje.subir_nivel(10,1)
+# mi_enemigo = personaje("vergil", 70, 30, 100, 70)
+# mi_personaje.atacar(mi_enemigo)
+# mi_enemigo.imprimir_atributos()
 
 
 #print(mi_personaje.dañar(mi_enemigo))
